@@ -1,0 +1,37 @@
+{
+  "name": "revenue_monster_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "boxes start",
+    "watch": "boxes start --watch",
+    "lint:js": "standard",
+    "test": "mocha --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoawesome/revenue_monster_test.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoawesome/revenue_monster_test/issues"
+  },
+  "homepage": "https://github.com/leoawesome/revenue_monster_test#readme",
+  "dependencies": {
+    "@boxescms/server": "^0.1.5",
+    "axios": "^0.19.1",
+    "express": "^4.17.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
