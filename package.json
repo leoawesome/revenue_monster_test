@@ -22,7 +22,7 @@
   "dependencies": {
     "@boxescms/server": "^0.1.5",
     "axios": "^0.19.1",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "standard": {
     "parser": "babel-eslint"
